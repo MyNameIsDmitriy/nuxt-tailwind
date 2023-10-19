@@ -9,13 +9,13 @@ export default {
   ],
   theme: {
     colors: {
-      Yellow: rgba(254, 229, 0, 1),
-      Blue: rgba(38, 114, 171, 1),
-      BlueNavigate: rgba(62, 126, 180, 1),
+      primary: "rgb(var(--color-primary) / 1)",
+      secondary: "rgb(var(--color-secondary) / 1)",
+      navigate: "rgb(var(--color-nav) / 1)",
     },
     fontFamily: {
-      primary: ["Roboto-Slab"],
-      logoFont: ["Baumans"],
+      primary: ["Roboto Slab"],
+      logo: ["Baumans"],
     },
     borderRadius: {
       DEFAULT: "0",
