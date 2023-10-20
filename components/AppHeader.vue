@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1470px] px-[15px] mx-auto">
+  <div class="max-w-[1470px] px-[15px] mx-auto mt-[40px]">
     <header class="flex items-center justify-between">
       <NuxtLink class="font-logo text-5xl font-bold text-secondary" to="/">
         MITech
