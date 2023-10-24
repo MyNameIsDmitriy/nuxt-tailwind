@@ -13,6 +13,8 @@ export default {
       secondary: "rgb(var(--color-secondary) / 1)",
       navigate: "rgb(var(--color-nav) / 1)",
       button: "rgb(var(--color-button) / 1)",
+      warning: "rgb(var(--color-warning) / 1)",
+      cultured: "rgb(var(--color-cultured) / 1)",
     },
     fontFamily: {
       primary: ["Roboto Slab"],
