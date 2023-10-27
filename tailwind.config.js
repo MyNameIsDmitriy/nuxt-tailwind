@@ -23,7 +23,11 @@ export default {
     borderRadius: {
       DEFAULT: "0",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        normal: "2px 3px 10px 3px #00000026",
+      },
+    },
     screens: {},
   },
   plugins: [],
