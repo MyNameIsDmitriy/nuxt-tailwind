@@ -15,6 +15,9 @@ export default {
       button: "rgb(var(--color-button) / 1)",
       warning: "rgb(var(--color-warning) / 1)",
       cultured: "rgb(var(--color-cultured) / 1)",
+      greenCard: "rgb(var(--color-green) / 0.1)",
+      purpleCard: "rgb(var(--color-purple) / 0.1)",
+      pinkCard: "rgb(var(--color-pink) / 0.1)",
     },
     fontFamily: {
       primary: ["Roboto Slab"],
