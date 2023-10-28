@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1470px] px-[15px] mx-auto mt-[40px]">
+  <div class="max-w-[1374px] px-[15px] mx-auto mt-[40px]">
     <header class="flex items-center justify-between">
       <NuxtLink class="font-logo text-5xl font-bold text-secondary" to="/">
         MITech
@@ -13,13 +13,13 @@
             <NuxtLink to="/">Главная</NuxtLink>
           </li>
           <li class="active:[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)]">
-            <NuxtLink to="/">О&#160;нас</NuxtLink>
+            <NuxtLink to="/about">О&#160;нас</NuxtLink>
           </li>
           <li class="active:[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)]">
-            <NuxtLink to="/">Услуги</NuxtLink>
+            <NuxtLink to="/services">Услуги</NuxtLink>
           </li>
           <li class="active:[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)] last:mr-0">
-            <NuxtLink to="/">Контакты</NuxtLink>
+            <NuxtLink to="/contacts">Контакты</NuxtLink>
           </li>
         </ul>
       </nav>
