@@ -12,7 +12,7 @@
             и&#160;всякое разное.
           </div>
         </div>
-        <NuxtLink class="self-start" to="/">
+        <NuxtLink class="self-start" to="/services/transportation">
           <button
             class="flex items-center px-[32px] py-[18px] rounded-[8px] bg-button"
           >
