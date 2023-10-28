@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1470px] px-[15px] mx-auto mt-[176px]">
+  <div class="max-w-[1374px] px-[15px] mx-auto mt-[176px]">
     <div class="flex max-[1340px]:flex-col justify-between items-center">
       <div class="flex flex-col font-primary text-primary">
         <div class="flex flex-col max-w-[456px] mb-[24px]">
