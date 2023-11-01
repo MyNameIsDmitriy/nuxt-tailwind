@@ -28,7 +28,7 @@ export default {
     },
     extend: {
       boxShadow: {
-        normal: "2px 3px 10px 3px #00000026",
+        normal: "2px 2px 15px 1px #00000029",
       },
     },
     screens: {},
