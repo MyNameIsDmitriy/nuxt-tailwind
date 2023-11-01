@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[1374px] px-[15px] mx-auto mt-[88px]">
-    <div class="text-base font-normal font-primary text-primary">
+    <div class="text-base font-normal font-primary text-primary mb-[120px]">
       <div>
         <h2 class="text-[40px] leading-[53px] mb-[24px]">Разнообразие услуг</h2>
         <p class="font-light leading-[21px]">
@@ -159,5 +159,7 @@
         </div>
       </div>
     </div>
+
+    <AppFooter />
   </div>
 </template>

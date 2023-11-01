@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[1374px] px-[15px] mx-auto mt-[88px]">
-    <div class="font-primary text-base font-light text-primary">
+    <div class="font-primary text-base font-light text-primary mb-[120px]">
       <div class="grid gap-[16px] grid-cols-3 mb-10">
         <!--       hiden if max-w ...       -->
         <div>
@@ -181,6 +181,7 @@
         </div>
       </div>
     </div>
+    <AppFooter />
   </div>
 </template>
 

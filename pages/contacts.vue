@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-[1374px] px-[15px] mx-auto mt-[88px]">
     <div
-      class="flex max-[950px]:flex-col justify-between max-[950px]:items-center max-[1250px]:justify-around font-primary text-primary"
+      class="flex max-[950px]:flex-col justify-between max-[950px]:items-center max-[1250px]:justify-around mb-[112px] font-primary text-primary"
     >
       <div class="max-w-[440px] max-[950px]:mb-[32px]">
         <div class="mb-[60px]">
@@ -203,6 +203,10 @@
           </button>
         </div>
       </form>
+    </div>
+
+    <div class="pb-[40px] font-primary font-normal text-primary">
+      <p>© ООО “ЭмАйТех” 2023</p>
     </div>
   </div>
 </template>
