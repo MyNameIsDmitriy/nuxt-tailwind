@@ -3,7 +3,7 @@
     <div
       class="flex justify-between max-[992px]:justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
     >
-      <p class="">© ООО “ЭмАйТех” 2023</p>
+      <p>© ООО “ЭмАйТех” 2023</p>
       <div
         class="flex max-[992px]:flex-col max-[992px]:[&>*]:mb-8 [&>*]:mr-8 last:[&>*]:mr-0 last:[&>*]:mb-0"
       >

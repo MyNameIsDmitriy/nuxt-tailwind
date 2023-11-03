@@ -158,7 +158,7 @@
             </div>
           </div>
 
-          <div class="">
+          <div>
             <p class="text-sm font-normal text-[#7a7a7a]">
               Подтвердите, что вы не робот:
               <mark class="text-xl bg-[white] text-warning">*</mark>

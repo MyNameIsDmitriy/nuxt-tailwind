@@ -168,7 +168,7 @@
                   <img
                     class="w-[80px] h-[80px]"
                     :src="partner.img"
-                    alt="client"
+                    alt="partner"
                   />
 
                   <h4 class="pb-[8px] text-2xl font-normal">
