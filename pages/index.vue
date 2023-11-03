@@ -19,7 +19,7 @@
           :pathToTransportaion="pathToTransportaion"
         />
       </div>
-      <img src="~/assets/svg/stock.svg" alt="stock" />
+      <img src="~/assets/svg/index-page/stock.svg" alt="stock" />
     </div>
     <AppFooter />
   </div>
