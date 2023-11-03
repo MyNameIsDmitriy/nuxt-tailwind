@@ -5,8 +5,8 @@
         <h1 class="text-[40px] leading-[53px] font-medium mb-[24px]">
           Международные автомобильные грузоперевозки
         </h1>
-        <div class="flex mb-[16px]">
-          <div>
+        <div class="flex max-[992px]:flex-col mb-[16px]">
+          <div class="max-[992px]:mb-[88px]">
             <p class="indent-6 mb-[16]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare
@@ -51,7 +51,7 @@
             </ul>
           </div>
           <img
-            class="relative bottom-[73px] float-right max-w-[496px] ml-[71px]"
+            class="self-center relative bottom-[73px] float-right max-w-[496px] max-[992px]:max-w-[248px] max-[992px]:max-h-[248px] min-[992px]:ml-[71px]"
             src="~/assets/svg/services-pages/bus_big.svg"
             alt="a bus"
           />
@@ -80,6 +80,6 @@
       </button>
     </NuxtLink>
 
-    <AppFooter class="mt-[48px]" />
+    <AppFooter class="mt-[48px] px-[15px]" />
   </div>
 </template>

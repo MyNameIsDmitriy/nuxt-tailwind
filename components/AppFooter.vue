@@ -1,10 +1,12 @@
 <template>
-  <div class="max-w-[1374px] px-[15px] mx-auto pb-[40px]">
+  <div class="sticky-footer:hidden max-w-[1374px] mx-auto pb-[40px]">
     <div
-      class="flex justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
+      class="flex justify-between max-[992px]:justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
     >
       <p class="">© ООО “ЭмАйТех” 2023</p>
-      <div class="flex [&>*]:mr-8 last:[&>*]:mr-0">
+      <div
+        class="flex max-[992px]:flex-col max-[992px]:[&>*]:mb-8 [&>*]:mr-8 last:[&>*]:mr-0 last:[&>*]:mb-0"
+      >
         <div class="flex items-center">
           <img src="~/assets/svg/app-footer/envelope.svg" alt="envelope" />
           <p class="pl-2">info.mitech@yandex.com</p>

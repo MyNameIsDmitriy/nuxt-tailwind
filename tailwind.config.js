@@ -19,6 +19,9 @@ export default {
       purpleCard: "rgb(var(--color-purple) / 0.1)",
       pinkCard: "rgb(var(--color-pink) / 0.1)",
     },
+    screens: {
+      "sticky-footer": { minHeight: "1000px", maxHeight: "1150px" },
+    },
     fontFamily: {
       primary: ["Roboto Slab"],
       logo: ["Baumans"],

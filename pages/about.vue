@@ -1,11 +1,13 @@
 <template>
-  <div class="max-w-[1374px] px-[15px] mx-auto mt-[88px]">
+  <div class="max-w-[1374px] px-[15px] mx-auto mt-[104px]">
     <div class="font-primary text-base font-light text-primary mb-[120px]">
-      <div class="grid gap-[16px] grid-cols-3 mb-10">
+      <div
+        class="grid gap-[16px] grid-cols-3 max-[780px]:grid-cols-1 [&>*]:max-[780px]:justify-self-center mb-10"
+      >
         <!--       hiden if max-w ...       -->
-        <div>
+        <div class="relative max-w-[437px]">
           <img
-            class="relative left-[87%] top-[59px]"
+            class="absolute top-[-5%] right-[2%]"
             src="~/assets/svg/about-page/number_one.svg"
             alt="number one"
           />
@@ -24,9 +26,9 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="relative max-w-[437px]">
           <img
-            class="relative left-[83%] top-[59px]"
+            class="absolute top-[-5%] right-[2%]"
             src="~/assets/svg/about-page/number_two.svg"
             alt="number two"
           />
@@ -45,9 +47,9 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="relative max-w-[437px]">
           <img
-            class="relative left-[83%] top-[59px]"
+            class="absolute top-[-5%] right-[2%]"
             src="~/assets/svg/about-page/number_three.svg"
             alt="number three"
           />
@@ -67,7 +69,9 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-between">
+      <div
+        class="flex max-[1370px]:flex-col max-[1370px]:items-center justify-between last:max-[1370px]:[&>*]:mt-[40px]"
+      >
         <div
           class="flex flex-col justify-between items-center max-w-[664px] px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
         >

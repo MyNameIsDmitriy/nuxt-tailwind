@@ -16,7 +16,7 @@
         </div>
         <NuxtLink class="self-start" to="/services/transportation">
           <button
-            class="flex items-center px-[32px] py-[18px] rounded-[8px] bg-button"
+            class="flex items-center px-[32px] py-[18px] rounded-[8px] bg-button hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
           >
             <p class="pr-[10px]">Узнать больше</p>
             <svg
@@ -36,10 +36,8 @@
           </button>
         </NuxtLink>
       </div>
-      <img src="~/assets/svg/stock.svg" alt="" />
+      <img src="~/assets/svg/stock.svg" alt="stock" />
     </div>
     <AppFooter />
   </div>
 </template>
-
-<script setup></script>

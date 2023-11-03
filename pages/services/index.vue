@@ -18,10 +18,14 @@
           mauris nunc. Mauris pharetra et ultrices neque ornare aenean.
         </p>
       </div>
-      <div class="flex justify-between items-baseline relative bottom-[16px]">
-        <div class="flex flex-col items-center max-w-[432px]">
+      <div
+        class="flex max-[1370px]:flex-col justify-between items-baseline max-[1370px]:items-center relative max-[1370px]:[&>*]:mb-[96px] last:[&>*]:mb-0"
+      >
+        <div
+          class="flex flex-col items-center relative max-w-[432px] mt-[152px]"
+        >
           <img
-            class="relative top-[116px] max-w-[203px]"
+            class="absolute top-[-14%]"
             src="~/assets/svg/services-pages/bus.svg"
             alt="a bus"
           />
@@ -63,9 +67,9 @@
           </div>
         </div>
 
-        <div class="flex flex-col items-center max-w-[432px]">
+        <div class="flex flex-col items-center relative max-w-[432px]">
           <img
-            class="relative top-[126px] max-w-[235px]"
+            class="absolute top-[-16%]"
             src="~/assets/svg/services-pages/opened_bus.svg"
             alt="a bus"
           />
@@ -111,9 +115,9 @@
           </div>
         </div>
 
-        <div class="flex flex-col items-center max-w-[432px]">
+        <div class="flex flex-col items-center relative max-w-[432px]">
           <img
-            class="relative top-[127px] max-w-[221px]"
+            class="absolute top-[-22%]"
             src="~/assets/svg/services-pages/developing.svg"
             alt="developing"
           />
