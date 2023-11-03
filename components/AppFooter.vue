@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky-footer:hidden max-w-[1374px] mx-auto pb-[40px]">
+  <div class="sticky-footer max-w-[1374px] mx-auto pb-[40px]">
     <div
       class="flex justify-between max-[992px]:justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
     >
