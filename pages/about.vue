@@ -4,7 +4,6 @@
       <div
         class="grid gap-[16px] grid-cols-3 max-[780px]:grid-cols-1 [&>*]:max-[780px]:justify-self-center mb-10"
       >
-        <!--       hiden if max-w ...       -->
         <div class="relative max-w-[437px]">
           <img
             class="absolute top-[-5%] right-[2%]"
@@ -73,7 +72,7 @@
         class="flex max-[1370px]:flex-col max-[1370px]:items-center justify-between last:max-[1370px]:[&>*]:mt-[40px]"
       >
         <div
-          class="flex flex-col justify-between items-center max-w-[664px] px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
+          class="flex flex-col justify-between items-center max-w-[664px] max-[670px]:max-w-[384px] min-[670px]:px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
         >
           <h3 class="mb-[29px] text-[40px] leading-[53px] font-medium">
             Наши клиенты
@@ -92,7 +91,7 @@
             :keyboard="true"
             :grab-cursor="true"
           >
-            <div class="slider-navigation">
+            <div class="max-[670px]:hidden slider-navigation">
               <img
                 class="swiper-button-prev"
                 src="~/assets/svg/about-page/arrow_left.svg"
@@ -129,7 +128,7 @@
         </div>
 
         <div
-          class="flex flex-col justify-between items-center max-w-[664px] px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
+          class="flex flex-col justify-between items-center max-w-[664px] max-[670px]:max-w-[384px] min-[670px]:px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
         >
           <h3 class="mb-[29px] text-[40px] leading-[53px] font-medium">
             Наши партнеры
@@ -148,7 +147,7 @@
             :keyboard="true"
             :grab-cursor="true"
           >
-            <div class="slider-navigation">
+            <div class="max-[670px]:hidden slider-navigation">
               <img
                 class="swiper-button-prev"
                 src="~/assets/svg/about-page/arrow_left.svg"
