@@ -35,3 +35,10 @@
   -webkit-user-select: none;
   user-select: none;
 }
+
+@media screen and (min-width: 670px) {
+  .pdng-x {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}

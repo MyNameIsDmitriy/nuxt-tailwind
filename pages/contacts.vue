@@ -1,9 +1,9 @@
 <template>
   <div class="max-w-[1374px] px-[15px] mx-auto mt-[88px]">
     <div
-      class="flex max-[950px]:flex-col justify-between max-[950px]:items-center max-[1250px]:justify-around mb-[112px] font-primary text-primary"
+      class="flex max-950:flex-col justify-between max-950:items-center max-1250:justify-around mb-[112px] font-primary text-primary"
     >
-      <div class="max-w-[440px] max-[950px]:mb-[32px]">
+      <div class="max-w-[440px] max-950:mb-[32px]">
         <div class="mb-[60px]">
           <h1 class="text-[40px] leading-[53px] font-medium mb-[16px]">
             Задать вопрос
@@ -68,9 +68,9 @@
 
       <form action="submit">
         <div class="[&>*]:mb-[32px] last:[&>*]:mb-0">
-          <div class="flex max-[1250px]:flex-col text-base font-light">
+          <div class="flex max-1250:flex-col text-base font-light">
             <div
-              class="w-[320px] max-[1250px]:w-full mr-[16px] [&>label]:flex [&>label]:flex-col [&>label]:mb-[16px] min-[1250px]:last:[&>label]:mb-0"
+              class="w-[320px] max-1250:w-full mr-[16px] [&>label]:flex [&>label]:flex-col [&>label]:mb-[16px] min-1250:last:[&>label]:mb-0"
             >
               <label>
                 <span>

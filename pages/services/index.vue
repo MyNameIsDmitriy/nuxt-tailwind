@@ -19,7 +19,7 @@
         </p>
       </div>
       <div
-        class="flex max-[1370px]:flex-col justify-between items-baseline max-[1370px]:items-center relative max-[1370px]:[&>*]:mb-[96px] last:[&>*]:mb-0"
+        class="flex max-1370:flex-col justify-between items-baseline max-1370:items-center relative max-1370:[&>*]:mb-[96px] last:[&>*]:mb-0"
       >
         <div
           class="flex flex-col items-center relative max-w-[432px] mt-[152px]"

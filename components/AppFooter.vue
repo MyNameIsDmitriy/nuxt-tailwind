@@ -1,11 +1,11 @@
 <template>
   <div class="sticky-footer max-w-[1374px] mx-auto pb-[40px]">
     <div
-      class="flex justify-between max-[992px]:justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
+      class="flex justify-between max-992:justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
     >
       <p>© ООО “ЭмАйТех” 2023</p>
       <div
-        class="flex max-[992px]:flex-col max-[992px]:[&>*]:mb-8 [&>*]:mr-8 last:[&>*]:mr-0 last:[&>*]:mb-0"
+        class="flex max-992:flex-col max-992:[&>*]:mb-8 [&>*]:mr-8 last:[&>*]:mr-0 last:[&>*]:mb-0"
       >
         <div class="flex items-center">
           <img src="~/assets/svg/app-footer/envelope.svg" alt="envelope" />
