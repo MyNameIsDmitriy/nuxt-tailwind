@@ -2,7 +2,7 @@
   <div class="max-w-[1374px] px-[15px] mx-auto mt-[104px]">
     <div class="font-primary text-base font-light text-primary mb-[120px]">
       <div
-        class="grid gap-[16px] grid-cols-3 max-780:grid-cols-1 [&>*]:max-780:justify-self-center mb-10"
+        class="grid gap-[16px] grid-cols-1 tablet:grid-cols-3 [&>*]:justify-self-center mb-10"
       >
         <div class="relative max-w-[437px]">
           <img
@@ -69,10 +69,10 @@
         </div>
       </div>
       <div
-        class="flex max-1370:flex-col max-1370:items-center justify-between last:max-1370:[&>*]:mt-[40px]"
+        class="flex flex-col desktop:flex-row items-center justify-between last:[&>*]:mt-[40px] desktop:last:[&>*]:mt-0"
       >
         <div
-          class="flex flex-col justify-between items-center max-w-[664px] max-670:max-w-[384px] pdng-x pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
+          class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
         >
           <h3 class="mb-[29px] text-[40px] leading-[53px] font-medium">
             Наши клиенты
@@ -91,7 +91,7 @@
             :keyboard="true"
             :grab-cursor="true"
           >
-            <div class="max-670:hidden slider-navigation">
+            <div class="hidden tablet:block slider-navigation">
               <img
                 class="swiper-button-prev"
                 src="~/assets/svg/about-page/arrow_left.svg"
@@ -128,7 +128,7 @@
         </div>
 
         <div
-          class="flex flex-col justify-between items-center max-w-[664px] max-670:max-w-[384px] pdng-x pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
+          class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
         >
           <h3 class="mb-[29px] text-[40px] leading-[53px] font-medium">
             Наши партнеры
@@ -147,7 +147,7 @@
             :keyboard="true"
             :grab-cursor="true"
           >
-            <div class="max-670:hidden slider-navigation">
+            <div class="hidden tablet:block slider-navigation">
               <img
                 class="swiper-button-prev"
                 src="~/assets/svg/about-page/arrow_left.svg"

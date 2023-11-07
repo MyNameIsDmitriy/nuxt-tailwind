@@ -41,6 +41,11 @@ export default {
         "max-1250": { max: "1250px" },
         "max-1340": { max: "1340px" },
         "max-1370": { max: "1370px" },
+
+        tablet: "768px",
+        laptop: "1024px",
+        desktop: "1370px",
+
         "sticky-footer": { minHeight: "1000px", maxHeight: "1150px" },
       },
 
