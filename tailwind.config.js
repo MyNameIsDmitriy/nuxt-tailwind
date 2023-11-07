@@ -43,6 +43,7 @@ export default {
         "max-1370": { max: "1370px" },
 
         tablet: "768px",
+        "max-tablet": { max: "768px" },
         laptop: "1024px",
         desktop: "1370px",
 

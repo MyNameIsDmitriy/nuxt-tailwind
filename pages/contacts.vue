@@ -1,9 +1,9 @@
 <template>
   <div class="max-w-[1374px] px-[15px] mx-auto mt-[88px]">
     <div
-      class="flex max-950:flex-col justify-between max-950:items-center max-1250:justify-around mb-[112px] font-primary text-primary"
+      class="flex flex-col laptop:flex-row justify-around desktop:justify-between items-center laptop:items-start mb-[112px] font-primary text-primary"
     >
-      <div class="max-w-[440px] max-950:mb-[32px]">
+      <div class="max-w-[440px] mb-[32px] laptop:mb-0">
         <div class="mb-[60px]">
           <h1 class="text-[40px] leading-[53px] font-medium mb-[16px]">
             Задать вопрос
@@ -15,7 +15,9 @@
           </p>
         </div>
         <div>
-          <div class="text-2xl font-light [&>*]:mb-[16px] last:[&>p]:mb-[32px]">
+          <div
+            class="text-xl tablet:text-2xl font-light [&>*]:mb-[16px] last:[&>p]:mb-[32px]"
+          >
             <div>
               <p><b>Адрес</b>: РБ, г.&#160;Гродно,</p>
               <p>ул.&#160;Гаспадарчая, 21А, оф.&#160;107, 230005</p>
@@ -25,7 +27,7 @@
           </div>
 
           <div>
-            <div style="position: relative; overflow: hidden">
+            <div class="relative w-full overflow-hidden">
               <a
                 href="https://yandex.by/maps/org/mitech_/100614216891/?utm_medium=mapframe&utm_source=maps"
                 style="
@@ -54,23 +56,24 @@
                 "
                 >Логистическая компания в Гродно</a
               ><iframe
+                class="relative w-full h-[312px]"
                 src="https://yandex.by/map-widget/v1/?ll=23.825658%2C53.711301&mode=search&oid=100614216891&ol=biz&z=18"
-                width="440"
-                height="312"
                 frameborder="1"
                 allowfullscreen="true"
-                style="position: relative"
               ></iframe>
             </div>
           </div>
         </div>
       </div>
 
-      <form action="submit">
-        <div class="[&>*]:mb-[32px] last:[&>*]:mb-0">
-          <div class="flex max-1250:flex-col text-base font-light">
+      <form
+        class="w-full max-w-[440px] tablet:max-w-none tablet:w-auto"
+        action="submit"
+      >
+        <div class="w-full [&>*]:mb-[32px] last:[&>*]:mb-0">
+          <div class="flex flex-col desktop:flex-row text-base font-light">
             <div
-              class="w-[320px] max-1250:w-full mr-[16px] [&>label]:flex [&>label]:flex-col [&>label]:mb-[16px] min-1250:last:[&>label]:mb-0"
+              class="w-full desktop:w-[320px] [&>label]:flex [&>label]:flex-col desktop:mr-[16px] [&>label]:mb-[16px] dasktop:last:[&>label]:mb-0"
             >
               <label>
                 <span>
@@ -133,7 +136,7 @@
                 />
               </label>
             </div>
-            <div class="w-[432px]">
+            <div class="desktop:w-[432px]">
               <label class="flex flex-col">
                 <span>
                   Сообщение:
@@ -169,25 +172,27 @@
           <div>
             <div class="flex">
               <input
-                @click="toggleValue()"
+                @click="toggleValue"
                 type="checkbox"
                 class="custom-checkbox"
                 id="checkbox"
                 name="checkbox"
                 value="true"
               />
-              <label class="text-base font-light" for="checkbox">
-                Я&#160;согласен на&#160;
-                <a
-                  href="./lorem.pdf"
-                  target="_blank"
-                  class="font-normal underline"
-                >
-                  обработку персональных данных
-                </a>
+              <label class="text-sm tablet:text-base font-light" for="checkbox">
+                <p class="flex max-tablet:flex-col">
+                  Я согласен на
+                  <a
+                    href="./lorem.pdf"
+                    target="_blank"
+                    class="tablet:pl-[5px] font-normal underline"
+                  >
+                    обработку персональных данных
+                  </a>
+                </p>
               </label>
             </div>
-            <div v-show="!checkboxObject.value && checkboxObject.isPressed">
+            <div v-if="!checkboxObject.value && checkboxObject.isPressed">
               <p class="text-sm text-warning">
                 {{ v$.checkbox.$errors[0]?.$message }}
               </p>
@@ -195,7 +200,7 @@
           </div>
 
           <button
-            @click.prevent="submitForm()"
+            @click.prevent="submitForm"
             type="submit"
             class="text-base font-normal border-0 rounded-[8px] px-[60px] py-[18px] bg-secondary hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
           >
@@ -272,11 +277,5 @@ const submitForm = () => {
 
 function toggleValue() {
   checkboxObject.value = !checkboxObject.value;
-  console.log("value: " + checkboxObject.value);
-  console.log("isPressed: " + checkboxObject.isPressed);
-}
-
-function forcePdf(pdf) {
-  window.open(pdf, "_blank");
 }
 </script>
