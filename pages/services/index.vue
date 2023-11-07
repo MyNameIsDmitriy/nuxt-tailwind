@@ -19,7 +19,7 @@
         </p>
       </div>
       <div
-        class="flex max-1370:flex-col justify-between items-baseline max-1370:items-center relative max-1370:[&>*]:mb-[96px] last:[&>*]:mb-0"
+        class="flex flex-col desktop:flex-row justify-between items-center desktop:items-baseline relative [&>*]:mb-[96px] last:[&>*]:mb-0"
       >
         <div
           class="flex flex-col items-center relative max-w-[432px] mt-[152px]"
@@ -38,9 +38,8 @@
               Международные автомобильные грузоперевозки
             </h3>
             <p class="font-light mb-[24px]">
-              Текст заглушка для сео о&#160;чем угодно. Бла-бла-бла
-              и&#160;всякое разное. Текст заглушка для сео о&#160;чем угодно.
-              Бла-бла-бла и&#160;всякое разное.
+              Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
+              Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
             </p>
 
             <LearnMoreButton :pathToTransportaion="pathToTransportaion" />

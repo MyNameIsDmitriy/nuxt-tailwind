@@ -5,8 +5,8 @@
         <h1 class="text-[40px] leading-[53px] font-medium mb-[24px]">
           Международные автомобильные грузоперевозки
         </h1>
-        <div class="flex max-992:flex-col mb-[16px]">
-          <div class="max-992:mb-[88px]">
+        <div class="flex flex-col laptop:flex-row mb-[16px]">
+          <div class="mb-[88px] laptop:mb-0">
             <p class="indent-6 mb-[16]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare
@@ -51,7 +51,7 @@
             </ul>
           </div>
           <img
-            class="self-center relative bottom-[73px] float-right max-w-[496px] max-992:max-w-[248px] max-992:max-h-[248px] min-992:ml-[71px]"
+            class="self-center relative bottom-[73px] float-right max-w-[248px] laptop:max-w-[496px] laptop:ml-[71px]"
             src="~/assets/svg/services-pages/bus_big.svg"
             alt="a bus"
           />
@@ -74,7 +74,7 @@
     </div>
     <NuxtLink to="../contacts">
       <button
-        class="w-screen py-[32px] m-auto font-primary text-[32px] leading-[42px] font-medium text-primary bg-button"
+        class="w-screen py-[32px] mx-auto font-primary text-2xl tablet:text-[32px] tablet:leading-[42px] font-medium text-primary bg-button"
       >
         Получить консультацию по услуге
       </button>
