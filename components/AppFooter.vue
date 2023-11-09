@@ -1,9 +1,9 @@
 <template>
   <div class="sticky-footer max-w-[1374px] mx-auto pb-[40px]">
     <div
-      class="flex justify-between max-992:justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
+      class="flex flex-col tablet:flex-row justify-between max-992:justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
     >
-      <p>© ООО “ЭмАйТех” 2023</p>
+      <p class="mb-8 tablet:mb-0">© ООО “ЭмАйТех” 2023</p>
       <div
         class="flex max-992:flex-col max-992:[&>*]:mb-8 [&>*]:mr-8 last:[&>*]:mr-0 last:[&>*]:mb-0"
       >

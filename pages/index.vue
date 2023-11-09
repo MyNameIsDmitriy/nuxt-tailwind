@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-[1374px] px-[15px] mx-auto mt-[176px]">
+  <div class="max-w-[1374px] px-[15px] mx-auto mt-20 tablet:mt-[176px]">
     <div
-      class="flex flex-col desktop:flex-row justify-between items-center mb-[240px]"
+      class="flex flex-col desktop:flex-row justify-between items-center mb-24 tablet:mb-[240px]"
     >
       <div class="flex flex-col font-primary text-primary">
         <div class="flex flex-col max-w-[456px] mb-[16px] tablet:mb-[24px]">
