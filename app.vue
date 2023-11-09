@@ -8,6 +8,6 @@
 
 <script setup>
 useHead({
-  title: "MItech",
+  title: "MITech",
 });
 </script>
