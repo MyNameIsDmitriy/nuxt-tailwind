@@ -32,22 +32,18 @@ export default {
 
     extend: {
       screens: {
-        "max-670": { max: "670px" },
-        "max-780": { max: "780px" },
-        "max-950": { max: "950px" },
-        "min-992": { min: "992px" },
-        "max-992": { max: "992px" },
-        "min-1250": { min: "1250px" },
-        "max-1250": { max: "1250px" },
-        "max-1340": { max: "1340px" },
-        "max-1370": { max: "1370px" },
-
         tablet: "768px",
         "max-tablet": { max: "768px" },
         laptop: "1024px",
         desktop: "1370px",
 
         "sticky-footer": { minHeight: "1000px", maxHeight: "1150px" },
+      },
+
+      maxWidth: {
+        // "contacts-heading": "440px",
+        "index-heading": "456px",
+        container: "1376px",
       },
 
       boxShadow: {

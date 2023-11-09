@@ -1,26 +1,26 @@
 <template>
-  <div class="max-w-[1374px] px-[15px] mx-auto mt-[88px]">
+  <div class="max-w-container px-4 mx-auto mt-20">
     <div
-      class="flex flex-col laptop:flex-row justify-around desktop:justify-between items-center laptop:items-start mb-[112px] font-primary text-primary"
+      class="flex flex-col laptop:flex-row justify-around desktop:justify-between items-center laptop:items-start mb-28 font-primary text-primary"
     >
-      <div class="max-w-[440px] mb-[32px] laptop:mb-0">
-        <div class="mb-[60px]">
-          <h1 class="text-[40px] leading-[53px] font-medium mb-[16px]">
+      <div class="max-w-[440px] mb-8 laptop:mb-0">
+        <div class="mb-14">
+          <h1 class="text-[40px] leading-[53px] font-medium mb-4">
             Задать вопрос
           </h1>
           <p class="text-base leading-[21px] font-light">
-            Менеджеры компании с&#160;радостью ответят на&#160;ваши вопросы,
-            произведут расчет стоимости услуг и&#160;подготовят индивидуальное
-            коммерческое предложение.
+            Менеджеры компании с радостью ответят на ваши вопросы, произведут
+            расчет стоимости услуг и подготовят индивидуальное коммерческое
+            предложение.
           </p>
         </div>
         <div>
           <div
-            class="text-xl tablet:text-2xl font-light [&>*]:mb-[16px] last:[&>p]:mb-[32px]"
+            class="text-xl tablet:text-2xl font-light [&>*]:mb-4 last:[&>p]:mb-8"
           >
             <div>
-              <p><b>Адрес</b>: РБ, г.&#160;Гродно,</p>
-              <p>ул.&#160;Гаспадарчая, 21А, оф.&#160;107, 230005</p>
+              <p><b>Адрес</b>: РБ, г. Гродно,</p>
+              <p>ул. Гаспадарчая, 21А, оф. 107, 230005</p>
             </div>
             <p><b>Телефон</b>: +375292929292</p>
             <p><b>e-mail</b>: info.mitech@yandex.com</p>
@@ -70,22 +70,22 @@
         class="w-full max-w-[440px] tablet:max-w-none tablet:w-auto"
         action="submit"
       >
-        <div class="w-full [&>*]:mb-[32px] last:[&>*]:mb-0">
+        <div class="w-full [&>*]:mb-8 last:[&>*]:mb-0">
           <div class="flex flex-col desktop:flex-row text-base font-light">
             <div
-              class="w-full desktop:w-[320px] [&>label]:flex [&>label]:flex-col desktop:mr-[16px] [&>label]:mb-[16px] dasktop:last:[&>label]:mb-0"
+              class="w-full desktop:w-[320px] [&>label]:flex [&>label]:flex-col desktop:mr-4 [&>label]:mb-4 dasktop:last:[&>label]:mb-0"
             >
               <label>
                 <span>
                   Ваше имя:
-                  <mark class="text-base pl-[2px] bg-[white] text-warning"
+                  <mark class="text-base pl-0.5 bg-[white] text-warning"
                     >*</mark
                   >
                 </span>
                 <input
                   type="text"
                   v-model="formData.name"
-                  class="font-normal border-[1px] border-[#D8D8D8] py-[12px] px-[5px] bg-cultured"
+                  class="font-normal border-[1px] border-[#D8D8D8] py-3 px-1 bg-cultured"
                   :class="{
                     'border-warning focus:border-warning outline-warning':
                       v$.name.$error,
@@ -100,14 +100,14 @@
               <label>
                 <span>
                   e-mail:
-                  <mark class="text-base pl-[2px] bg-[white] text-warning"
+                  <mark class="text-base pl-0.5 bg-[white] text-warning"
                     >*</mark
                   >
                 </span>
                 <input
                   type="text"
                   v-model="formData.email"
-                  class="font-normal border-[1px] border-[#D8D8D8] py-[12px] px-[5px] bg-cultured"
+                  class="font-normal border-[1px] border-[#D8D8D8] py-3 px-1 bg-cultured"
                   :class="{
                     'border-warning focus:border-warning outline-warning':
                       v$.email.$error,
@@ -123,7 +123,7 @@
               <label>
                 <span> Телефон:</span>
                 <input
-                  class="font-normal border-[1px] border-[#D8D8D8] py-[12px] px-[5px] bg-cultured"
+                  class="font-normal border-[1px] border-[#D8D8D8] py-3 px-1 bg-cultured"
                   type="text"
                 />
               </label>
@@ -131,7 +131,7 @@
               <label>
                 <span> Город:</span>
                 <input
-                  class="font-normal border-[1px] border-[#D8D8D8] py-[12px] px-[5px] bg-cultured"
+                  class="font-normal border-[1px] border-[#D8D8D8] py-3 px-1 bg-cultured"
                   type="text"
                 />
               </label>
@@ -140,13 +140,13 @@
               <label class="flex flex-col">
                 <span>
                   Сообщение:
-                  <mark class="text-base pl-[2px] bg-[white] text-warning"
+                  <mark class="text-base pl-0.5 bg-[white] text-warning"
                     >*</mark
                   >
                 </span>
                 <textarea
                   v-model="formData.message"
-                  class="font-normal border-[1px] border-[#D8D8D8] h-[230px] bg-cultured py-[5px] px-[5px]"
+                  class="font-normal border-[1px] border-[#D8D8D8] h-[230px] bg-cultured py-1 px-1"
                   :class="{
                     'border-warning focus:border-warning outline-warning':
                       v$.message.$error,
@@ -180,12 +180,12 @@
                 value="true"
               />
               <label class="text-sm tablet:text-base font-light" for="checkbox">
-                <p class="flex max-tablet:flex-col">
+                <p class="flex flex-col tablet:flex-row">
                   Я согласен на
                   <a
                     href="./lorem.pdf"
                     target="_blank"
-                    class="tablet:pl-[5px] font-normal underline"
+                    class="tablet:pl-1 font-normal underline"
                   >
                     обработку персональных данных
                   </a>
@@ -202,7 +202,7 @@
           <button
             @click.prevent="submitForm"
             type="submit"
-            class="text-base font-normal border-0 rounded-[8px] px-[60px] py-[18px] bg-secondary hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
+            class="text-base font-normal border-0 rounded-[8px] px-14 py-[18px] bg-secondary hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
           >
             Отправить
           </button>
@@ -210,7 +210,7 @@
       </form>
     </div>
 
-    <div class="pb-[40px] font-primary font-normal text-primary">
+    <div class="pb-10 font-primary font-normal text-primary">
       <p>© ООО “ЭмАйТех” 2023</p>
     </div>
   </div>

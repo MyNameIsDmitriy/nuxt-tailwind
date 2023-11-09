@@ -6,9 +6,9 @@
     "
   >
     <button
-      class="flex items-center px-[32px] py-[18px] rounded-[8px] bg-button hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
+      class="flex items-center px-8 py-[18px] rounded-[8px] bg-button hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
     >
-      <p class="pr-[10px]">Узнать больше</p>
+      <p class="pr-2">Узнать больше</p>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

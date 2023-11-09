@@ -1,8 +1,8 @@
 <template>
-  <div class="max-w-[1374px] px-[15px] mx-auto mt-[104px]">
-    <div class="font-primary text-base font-light text-primary mb-[120px]">
+  <div class="max-w-container px-4 mx-auto mt-24">
+    <div class="font-primary text-base font-light text-primary mb-28">
       <div
-        class="grid gap-[16px] grid-cols-1 tablet:grid-cols-3 [&>*]:justify-self-center mb-10"
+        class="grid gap-4 grid-cols-1 tablet:grid-cols-3 [&>*]:justify-self-center mb-10"
       >
         <div class="relative max-w-[437px]">
           <img
@@ -19,9 +19,8 @@
               alt="calendar"
             />
             <p class="px-6 py-5">
-              Работаем с&#160;2008 года. Отзыв клиента&#160;1. Бла-бла-бла.
-              Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые ребята.
-              Работаем дальше
+              Работаем с 2008 года. Отзыв клиента 1. Бла-бла-бла. Крутые ребята.
+              Работаем дальше. Бла-бла-бла. Крутые ребята. Работаем дальше
             </p>
           </div>
         </div>
@@ -69,12 +68,12 @@
         </div>
       </div>
       <div
-        class="flex flex-col desktop:flex-row items-center justify-between last:[&>*]:mt-[40px] desktop:last:[&>*]:mt-0"
+        class="flex flex-col desktop:flex-row items-center justify-between last:[&>*]:mt-10 desktop:last:[&>*]:mt-0"
       >
         <div
-          class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
+          class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-14 pt-10 pb-14 rounded-[14px] shadow-normal"
         >
-          <h3 class="mb-[29px] text-[40px] leading-[53px] font-medium">
+          <h3 class="mb-7 text-[40px] leading-[53px] font-medium">
             Наши клиенты
           </h3>
 
@@ -107,7 +106,7 @@
             <SwiperSlide v-for="client in sliderClients">
               <div class="flex justify-center items-center">
                 <div
-                  class="flex flex-col items-center w-[384px] h-[207px] mb-[16px] mx-[32px]"
+                  class="flex flex-col items-center w-[384px] h-[207px] mb-4 mx-8"
                 >
                   <img
                     class="w-[80px] h-[80px]"
@@ -115,7 +114,7 @@
                     alt="client"
                   />
 
-                  <h4 class="pb-[8px] text-2xl font-normal">
+                  <h4 class="pb-2 text-2xl font-normal">
                     {{ client.name }}
                   </h4>
                   <p class="leading-[21px] text-center">
@@ -128,9 +127,9 @@
         </div>
 
         <div
-          class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-[56px] pt-[40px] pb-[60px] rounded-[14px] shadow-normal"
+          class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-14 pt-10 pb-14 rounded-[14px] shadow-normal"
         >
-          <h3 class="mb-[29px] text-[40px] leading-[53px] font-medium">
+          <h3 class="mb-7 text-[40px] leading-[53px] font-medium">
             Наши партнеры
           </h3>
 
@@ -163,7 +162,7 @@
             <SwiperSlide v-for="partner in sliderPartners">
               <div class="flex justify-center items-center">
                 <div
-                  class="flex flex-col items-center w-[384px] h-[207px] mb-[16px] mx-[32px]"
+                  class="flex flex-col items-center w-[384px] h-[207px] mb-4 mx-8"
                 >
                   <img
                     class="w-[80px] h-[80px]"
@@ -171,7 +170,7 @@
                     alt="partner"
                   />
 
-                  <h4 class="pb-[8px] text-2xl font-normal">
+                  <h4 class="pb-2 text-2xl font-normal">
                     {{ partner.name }}
                   </h4>
                   <p class="leading-[21px] text-center">
@@ -184,7 +183,7 @@
         </div>
       </div>
     </div>
-    <AppFooter />
+    <Footer />
   </div>
 </template>
 

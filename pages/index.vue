@@ -1,12 +1,12 @@
 <template>
-  <div class="max-w-[1374px] px-[15px] mx-auto mt-20 tablet:mt-[176px]">
+  <div class="max-w-container px-4 mx-auto mt-20 tablet:mt-44">
     <div
-      class="flex flex-col desktop:flex-row justify-between items-center mb-24 tablet:mb-[240px]"
+      class="flex flex-col desktop:flex-row justify-between items-center mb-24 tablet:mb-60"
     >
       <div class="flex flex-col font-primary text-primary">
-        <div class="flex flex-col max-w-[456px] mb-[16px] tablet:mb-[24px]">
+        <div class="flex flex-col max-w-index-heading mb-4 tablet:mb-6">
           <h1
-            class="text-3xl tablet:text-5xl tablet:leading-[64px] font-medium mb-[16px] tablet:mb-[24px]"
+            class="text-3xl tablet:text-5xl tablet:leading-[64px] font-medium mb-4 tablet:mb-6"
           >
             Международные автомобильные грузоперевозки
           </h1>
@@ -16,13 +16,13 @@
           </div>
         </div>
         <LearnMoreButton
-          class="self-start mb-[16px] tablet:mb-0"
+          class="self-start mb-4 tablet:mb-0"
           :pathToTransportaion="pathToTransportaion"
         />
       </div>
       <img src="~/assets/svg/index-page/stock.svg" alt="stock" />
     </div>
-    <AppFooter />
+    <Footer />
   </div>
 </template>
 

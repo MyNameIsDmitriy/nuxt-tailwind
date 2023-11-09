@@ -1,8 +1,8 @@
 <template>
-  <div class="max-w-[1374px] px-[15px] mx-auto mt-[88px]">
-    <div class="text-base font-normal font-primary text-primary mb-[120px]">
+  <div class="max-w-container px-4 mx-auto mt-20">
+    <div class="text-base font-normal font-primary text-primary mb-28">
       <div>
-        <h2 class="text-[40px] leading-[53px] mb-[24px]">Разнообразие услуг</h2>
+        <h2 class="text-[40px] leading-[53px] mb-6">Разнообразие услуг</h2>
         <p class="font-light leading-[21px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare
@@ -19,25 +19,21 @@
         </p>
       </div>
       <div
-        class="flex flex-col desktop:flex-row justify-between items-center desktop:items-baseline relative [&>*]:mb-[96px] last:[&>*]:mb-0"
+        class="flex flex-col desktop:flex-row justify-between items-center desktop:items-baseline relative [&>*]:mb-24 last:[&>*]:mb-0"
       >
-        <div
-          class="flex flex-col items-center relative max-w-[432px] mt-[152px]"
-        >
+        <div class="flex flex-col items-center relative max-w-[432px] mt-36">
           <img
             class="absolute top-[-14%]"
             src="~/assets/svg/services-pages/bus.svg"
             alt="a bus"
           />
           <div
-            class="flex flex-col items-center justify-items-center max-w-[440px] px-[20px] last:[&>*]:mb-[24px] border-0 rounded-[16px] shadow-normal"
+            class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
           >
-            <h3
-              class="text-[23px] leading-[30px] text-center mt-[136px] mb-[8px]"
-            >
+            <h3 class="text-[23px] leading-[30px] text-center mt-32 mb-2">
               Международные автомобильные грузоперевозки
             </h3>
-            <p class="font-light mb-[24px]">
+            <p class="font-light mb-6">
               Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
               Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
             </p>
@@ -53,18 +49,15 @@
             alt="a bus"
           />
           <div
-            class="flex flex-col items-center justify-items-center max-w-[440px] px-[20px] last:[&>*]:mb-[24px] border-0 rounded-[16px] shadow-normal"
+            class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
           >
-            <h3
-              class="text-[23px] leading-[30px] text-center mt-[136px] mb-[8px]"
-            >
+            <h3 class="text-[23px] leading-[30px] text-center mt-32 mb-2">
               <p>Экспедирование</p>
               <p>грузов</p>
             </h3>
-            <p class="font-light mb-[24px]">
-              Текст заглушка для сео о&#160;чем угодно. Бла-бла-бла
-              и&#160;всякое разное. Текст заглушка для сео о&#160;чем угодно.
-              Бла-бла-бла и&#160;всякое разное.
+            <p class="font-light mb-6">
+              Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
+              Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
             </p>
 
             <LearnMoreButton :pathToFreightForwading="pathToFreightForwading" />
@@ -78,17 +71,14 @@
             alt="developing"
           />
           <div
-            class="flex flex-col items-center justify-items-center max-w-[440px] px-[20px] last:[&>*]:mb-[24px] border-0 rounded-[16px] shadow-normal"
+            class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
           >
-            <h3
-              class="text-[23px] leading-[30px] text-center mt-[136px] mb-[8px]"
-            >
+            <h3 class="text-[23px] leading-[30px] text-center mt-32 mb-2">
               Разработка ПО для транспортных компаний
             </h3>
-            <p class="font-light mb-[24px]">
-              Текст заглушка для сео о&#160;чем угодно. Бла-бла-бла
-              и&#160;всякое разное. Текст заглушка для сео о&#160;чем угодно.
-              Бла-бла-бла и&#160;всякое разное.
+            <p class="font-light mb-6">
+              Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
+              Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
             </p>
 
             <LearnMoreButton
@@ -99,7 +89,7 @@
       </div>
     </div>
 
-    <AppFooter />
+    <Footer />
   </div>
 </template>
 
