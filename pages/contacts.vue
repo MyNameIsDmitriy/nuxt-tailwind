@@ -5,10 +5,8 @@
     >
       <div class="max-w-[440px] mb-8 laptop:mb-0">
         <div class="mb-14">
-          <h1 class="text-[40px] leading-[53px] font-medium mb-4">
-            Задать вопрос
-          </h1>
-          <p class="text-base leading-[21px] font-light">
+          <h1 class="text-4xlg font-medium mb-4">Задать вопрос</h1>
+          <p class="text-base font-light">
             Менеджеры компании с радостью ответят на ваши вопросы, произведут
             расчет стоимости услуг и подготовят индивидуальное коммерческое
             предложение.
@@ -202,7 +200,7 @@
           <button
             @click.prevent="submitForm"
             type="submit"
-            class="text-base font-normal border-0 rounded-[8px] px-14 py-[18px] bg-secondary hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
+            class="text-base font-normal border-0 rounded-[8px] px-14 py-[18px] bg-secondary hover:text-white active:translate-y-[-3px] active:shadow-xl"
           >
             Отправить
           </button>

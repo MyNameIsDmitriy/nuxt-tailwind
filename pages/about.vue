@@ -73,9 +73,7 @@
         <div
           class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-14 pt-10 pb-14 rounded-[14px] shadow-normal"
         >
-          <h3 class="mb-7 text-[40px] leading-[53px] font-medium">
-            Наши клиенты
-          </h3>
+          <h3 class="mb-7 text-4xlg font-medium">Наши клиенты</h3>
 
           <Swiper
             class="w-full"
@@ -117,7 +115,7 @@
                   <h4 class="pb-2 text-2xl font-normal">
                     {{ client.name }}
                   </h4>
-                  <p class="leading-[21px] text-center">
+                  <p class="text-base text-center">
                     {{ client.message }}
                   </p>
                 </div>
@@ -129,9 +127,7 @@
         <div
           class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-14 pt-10 pb-14 rounded-[14px] shadow-normal"
         >
-          <h3 class="mb-7 text-[40px] leading-[53px] font-medium">
-            Наши партнеры
-          </h3>
+          <h3 class="mb-7 text-4xlg font-medium">Наши партнеры</h3>
 
           <Swiper
             class="w-full"
@@ -173,7 +169,7 @@
                   <h4 class="pb-2 text-2xl font-normal">
                     {{ partner.name }}
                   </h4>
-                  <p class="leading-[21px] text-center">
+                  <p class="text-base text-center">
                     {{ partner.message }}
                   </p>
                 </div>

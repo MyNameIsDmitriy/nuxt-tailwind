@@ -2,7 +2,7 @@
   <div class="mt-20 overflow-x-hidden">
     <div class="max-w-container px-4 mx-auto">
       <div class="text-base font-light font-primary text-primary">
-        <h1 class="text-[40px] leading-[53px] font-medium mb-6">
+        <h1 class="text-4xlg font-medium mb-6">
           Международные автомобильные грузоперевозки
         </h1>
         <div class="flex flex-col laptop:flex-row mb-4">
@@ -74,7 +74,7 @@
     </div>
     <NuxtLink to="../contacts">
       <button
-        class="w-screen py-8 mx-auto font-primary text-2xl tablet:text-[32px] tablet:leading-[42px] font-medium text-primary bg-button"
+        class="w-screen py-8 mx-auto font-primary text-2xl tablet:text-3xlg font-medium text-primary bg-button"
       >
         Получить консультацию по услуге
       </button>

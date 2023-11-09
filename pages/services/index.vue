@@ -2,8 +2,8 @@
   <div class="max-w-container px-4 mx-auto mt-20">
     <div class="text-base font-normal font-primary text-primary mb-28">
       <div>
-        <h2 class="text-[40px] leading-[53px] mb-6">Разнообразие услуг</h2>
-        <p class="font-light leading-[21px]">
+        <h2 class="text-4xlg mb-6">Разнообразие услуг</h2>
+        <p class="font-light">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare
           massa eget egestas purus. Vitae turpis massa sed elementum tempus
@@ -30,7 +30,7 @@
           <div
             class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
           >
-            <h3 class="text-[23px] leading-[30px] text-center mt-32 mb-2">
+            <h3 class="text-xlg text-center mt-32 mb-2">
               Международные автомобильные грузоперевозки
             </h3>
             <p class="font-light mb-6">
@@ -51,7 +51,7 @@
           <div
             class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
           >
-            <h3 class="text-[23px] leading-[30px] text-center mt-32 mb-2">
+            <h3 class="text-xlg text-center mt-32 mb-2">
               <p>Экспедирование</p>
               <p>грузов</p>
             </h3>
@@ -73,7 +73,7 @@
           <div
             class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
           >
-            <h3 class="text-[23px] leading-[30px] text-center mt-32 mb-2">
+            <h3 class="text-xlg text-center mt-32 mb-2">
               Разработка ПО для транспортных компаний
             </h3>
             <p class="font-light mb-6">

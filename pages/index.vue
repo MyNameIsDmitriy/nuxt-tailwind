@@ -5,9 +5,7 @@
     >
       <div class="flex flex-col font-primary text-primary">
         <div class="flex flex-col max-w-index-heading mb-4 tablet:mb-6">
-          <h1
-            class="text-3xl tablet:text-5xl tablet:leading-[64px] font-medium mb-4 tablet:mb-6"
-          >
+          <h1 class="text-3xl tablet:text-lg font-medium mb-4 tablet:mb-6">
             Международные автомобильные грузоперевозки
           </h1>
           <div class="text-xl tablet:text-2xl font-light">

@@ -1,7 +1,7 @@
 <template>
   <div class="sticky-footer max-w-container mx-auto pb-10">
     <div
-      class="flex flex-col tablet:flex-row justify-between items-center font-primary text-[16px] leading-[21px] font-normal text-primary"
+      class="flex flex-col tablet:flex-row justify-between items-center font-primary text-base font-normal text-primary"
     >
       <p class="mb-8 tablet:mb-0">© ООО “ЭмАйТех” 2023</p>
       <div
