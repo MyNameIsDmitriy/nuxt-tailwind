@@ -3,7 +3,7 @@
     <div
       class="flex flex-col laptop:flex-row justify-around desktop:justify-between items-center laptop:items-start mb-28 font-primary text-primary"
     >
-      <div class="max-w-[440px] mb-8 laptop:mb-0">
+      <div class="max-w-medium mb-8 laptop:mb-0">
         <div class="mb-14">
           <h1 class="text-4xlg font-medium mb-4">Задать вопрос</h1>
           <p class="text-base font-light">
@@ -54,7 +54,7 @@
                 "
                 >Логистическая компания в Гродно</a
               ><iframe
-                class="relative w-full h-[312px]"
+                class="relative w-full h-80"
                 src="https://yandex.by/map-widget/v1/?ll=23.825658%2C53.711301&mode=search&oid=100614216891&ol=biz&z=18"
                 frameborder="1"
                 allowfullscreen="true"
@@ -65,13 +65,13 @@
       </div>
 
       <form
-        class="w-full max-w-[440px] tablet:max-w-none tablet:w-auto"
+        class="w-full max-w-medium tablet:max-w-none tablet:w-auto"
         action="submit"
       >
         <div class="w-full [&>*]:mb-8 last:[&>*]:mb-0">
           <div class="flex flex-col desktop:flex-row text-base font-light">
             <div
-              class="w-full desktop:w-[320px] [&>label]:flex [&>label]:flex-col desktop:mr-4 [&>label]:mb-4 dasktop:last:[&>label]:mb-0"
+              class="w-full desktop:w-80 [&>label]:flex [&>label]:flex-col desktop:mr-4 [&>label]:mb-4 dasktop:last:[&>label]:mb-0"
             >
               <label>
                 <span>
@@ -83,7 +83,7 @@
                 <input
                   type="text"
                   v-model="formData.name"
-                  class="font-normal border-[1px] border-[#D8D8D8] py-3 px-1 bg-cultured"
+                  class="font-normal border border-[#D8D8D8] py-3 px-1 bg-cultured"
                   :class="{
                     'border-warning focus:border-warning outline-warning':
                       v$.name.$error,
@@ -105,7 +105,7 @@
                 <input
                   type="text"
                   v-model="formData.email"
-                  class="font-normal border-[1px] border-[#D8D8D8] py-3 px-1 bg-cultured"
+                  class="font-normal border border-[#D8D8D8] py-3 px-1 bg-cultured"
                   :class="{
                     'border-warning focus:border-warning outline-warning':
                       v$.email.$error,
@@ -121,7 +121,7 @@
               <label>
                 <span> Телефон:</span>
                 <input
-                  class="font-normal border-[1px] border-[#D8D8D8] py-3 px-1 bg-cultured"
+                  class="font-normal border border-[#D8D8D8] py-3 px-1 bg-cultured"
                   type="text"
                 />
               </label>
@@ -129,12 +129,12 @@
               <label>
                 <span> Город:</span>
                 <input
-                  class="font-normal border-[1px] border-[#D8D8D8] py-3 px-1 bg-cultured"
+                  class="font-normal border border-[#D8D8D8] py-3 px-1 bg-cultured"
                   type="text"
                 />
               </label>
             </div>
-            <div class="desktop:w-[432px]">
+            <div class="desktop:w-[27rem]">
               <label class="flex flex-col">
                 <span>
                   Сообщение:
@@ -144,7 +144,7 @@
                 </span>
                 <textarea
                   v-model="formData.message"
-                  class="font-normal border-[1px] border-[#D8D8D8] h-[230px] bg-cultured py-1 px-1"
+                  class="font-normal border border-[#D8D8D8] h-56 bg-cultured py-1 px-1"
                   :class="{
                     'border-warning focus:border-warning outline-warning':
                       v$.message.$error,
@@ -200,7 +200,7 @@
           <button
             @click.prevent="submitForm"
             type="submit"
-            class="text-base font-normal border-0 rounded-[8px] px-14 py-[18px] bg-secondary hover:text-white active:translate-y-[-3px] active:shadow-xl"
+            class="text-base font-normal border-0 rounded-lg px-14 py-[1.125rem] bg-secondary hover:text-white active:translate-y-[-3px] active:shadow-xl"
           >
             Отправить
           </button>

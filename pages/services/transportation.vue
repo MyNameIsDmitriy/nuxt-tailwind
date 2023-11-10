@@ -51,7 +51,7 @@
             </ul>
           </div>
           <img
-            class="self-center relative bottom-[73px] float-right max-w-[248px] laptop:max-w-[496px] laptop:ml-20"
+            class="self-center relative bottom-20 float-right max-w-[16rem] laptop:max-w-md laptop:ml-20"
             src="~/assets/svg/services-pages/bus_big.svg"
             alt="a bus"
           />

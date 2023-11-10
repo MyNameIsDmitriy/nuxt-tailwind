@@ -21,14 +21,16 @@
       <div
         class="flex flex-col desktop:flex-row justify-between items-center desktop:items-baseline relative [&>*]:mb-24 last:[&>*]:mb-0"
       >
-        <div class="flex flex-col items-center relative max-w-[432px] mt-36">
+        <div
+          class="flex flex-col items-center relative max-w-services-card mt-36"
+        >
           <img
-            class="absolute top-[-14%]"
+            class="absolute bottom-2/3"
             src="~/assets/svg/services-pages/bus.svg"
             alt="a bus"
           />
           <div
-            class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
+            class="flex flex-col items-center justify-items-center max-w-medium px-5 last:[&>*]:mb-6 border-0 rounded-2xl shadow-normal"
           >
             <h3 class="text-xlg text-center mt-32 mb-2">
               Международные автомобильные грузоперевозки
@@ -42,14 +44,14 @@
           </div>
         </div>
 
-        <div class="flex flex-col items-center relative max-w-[432px]">
+        <div class="flex flex-col items-center relative max-w-services-card">
           <img
-            class="absolute top-[-16%]"
+            class="absolute bottom-2/3"
             src="~/assets/svg/services-pages/opened_bus.svg"
             alt="a bus"
           />
           <div
-            class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
+            class="flex flex-col items-center justify-items-center max-w-medium px-5 last:[&>*]:mb-6 border-0 rounded-2xl shadow-normal"
           >
             <h3 class="text-xlg text-center mt-32 mb-2">
               <p>Экспедирование</p>
@@ -64,14 +66,14 @@
           </div>
         </div>
 
-        <div class="flex flex-col items-center relative max-w-[432px]">
+        <div class="flex flex-col items-center relative max-w-services-card">
           <img
-            class="absolute top-[-22%]"
+            class="absolute bottom-2/3"
             src="~/assets/svg/services-pages/developing.svg"
             alt="developing"
           />
           <div
-            class="flex flex-col items-center justify-items-center max-w-[440px] px-5 last:[&>*]:mb-6 border-0 rounded-[16px] shadow-normal"
+            class="flex flex-col items-center justify-items-center max-w-medium px-5 last:[&>*]:mb-6 border-0 rounded-2xl shadow-normal"
           >
             <h3 class="text-xlg text-center mt-32 mb-2">
               Разработка ПО для транспортных компаний

@@ -25,8 +25,10 @@ export default {
       },
 
       maxWidth: {
-        // "contacts-heading": "440px",
+        "services-card": "432px",
+        medium: "440px",
         "index-heading": "456px",
+        "2xlg": "664px",
         container: "1376px",
       },
 
@@ -52,10 +54,6 @@ export default {
 
       boxShadow: {
         normal: "2px 2px 15px 1px #00000029",
-      },
-
-      borderRadius: {
-        DEFAULT: "0",
       },
     },
   },

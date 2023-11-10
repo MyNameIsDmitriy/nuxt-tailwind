@@ -4,7 +4,7 @@
       class="flex flex-col desktop:flex-row justify-between items-center mb-24 tablet:mb-60"
     >
       <div class="flex flex-col font-primary text-primary">
-        <div class="flex flex-col max-w-index-heading mb-4 tablet:mb-6">
+        <div class="flex flex-col max-w-[28.5rem] mb-4 tablet:mb-6">
           <h1 class="text-3xl tablet:text-lg font-medium mb-4 tablet:mb-6">
             Международные автомобильные грузоперевозки
           </h1>

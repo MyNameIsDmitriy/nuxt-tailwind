@@ -8,7 +8,7 @@
       <nav class="font-primary text-2xl font-normal text-navigate">
         <div class="tablet:hidden" @click="toggleMenu">
           <svg
-            v-if="isPressed"
+            v-if="!isPressed"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -24,7 +24,7 @@
           </svg>
 
           <svg
-            v-if="!isPressed"
+            v-else
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -42,7 +42,7 @@
 
         <ul
           class="fixed tablet:static flex flex-col tablet:flex-row items-center w-full bg-cultured/90 tablet:bg-cultured/0 z-20 list-none transition-all duration-300 overflow-x-hidden [&>li]:my-6 tablet:[&>li]:my-0 tablet:[&>li]:mr-12 [&>li]:transition-[text-shadow] [&>li]:duration-[0.1s]"
-          :class="[isPressed ? 'left-full' : 'left-0']"
+          :class="[!isPressed ? 'left-full' : 'left-0']"
         >
           <li
             @click="toggleMenu"
@@ -75,17 +75,21 @@
 </template>
 
 <script setup>
-let isPressed = ref(true);
-// let scrollPosition = ref(window.scrollY);
+import { onMounted, onUnmounted } from "vue";
 
-// created(() => {
-//   if (process.client) {
-//     console.log(window.scrollY);
-//   }
-// });
+let isPressed = ref(false);
 
 const toggleMenu = () => {
   isPressed.value = !isPressed.value;
 };
-// if (scrollPosition != window.scrollY) isPressed.value = true;
+const closeMenu = () => {
+  isPressed.value = false;
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", closeMenu);
+});
+onUnmounted(() => {
+  window.removeEventListener("scroll", closeMenu);
+});
 </script>

@@ -6,7 +6,7 @@
     "
   >
     <button
-      class="flex items-center px-8 py-[18px] rounded-[8px] bg-button hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
+      class="flex items-center px-8 py-[1.125rem] rounded-lg bg-button hover:text-[#FFFFFF] active:translate-y-[-3px] active:shadow-xl"
     >
       <p class="pr-2">Узнать больше</p>
       <svg

@@ -4,17 +4,17 @@
       <div
         class="grid gap-4 grid-cols-1 tablet:grid-cols-3 [&>*]:justify-self-center mb-10"
       >
-        <div class="relative max-w-[437px]">
+        <div class="relative max-w-medium">
           <img
             class="absolute top-[-5%] right-[2%]"
             src="~/assets/svg/about-page/number_one.svg"
             alt="number one"
           />
           <div
-            class="flex flex-col min-h-[269px] border-0 rounded-[10px] bg-greenCard"
+            class="flex flex-col min-h-[17rem] border-0 rounded-xl bg-greenCard"
           >
             <img
-              class="max-w-[157px] pl-2 pt-3"
+              class="max-w-[10rem] pl-2 pt-3"
               src="~/assets/svg/about-page/calendar.svg"
               alt="calendar"
             />
@@ -24,45 +24,45 @@
             </p>
           </div>
         </div>
-        <div class="relative max-w-[437px]">
+        <div class="relative max-w-medium">
           <img
             class="absolute top-[-5%] right-[2%]"
             src="~/assets/svg/about-page/number_two.svg"
             alt="number two"
           />
           <div
-            class="flex flex-col min-h-[269px] border-0 rounded-[10px] bg-purpleCard"
+            class="flex flex-col min-h-[17rem] border-0 rounded-xl bg-purpleCard"
           >
             <img
-              class="max-w-[152px] pl-2 pt-3"
+              class="max-w-[10rem] pl-2 pt-3"
               src="~/assets/svg/about-page/todo.svg"
-              alt="calendar"
+              alt="todo"
             />
             <p class="px-6 py-5">
-              Выполнено 100500 успешных перевозок. Отзыв клиента&#160;1.
-              Бла-бла-бла. Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые
-              ребята. Работаем дальше
+              Выполнено 100500 успешных перевозок. Отзыв клиента 1. Бла-бла-бла.
+              Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые ребята.
+              Работаем дальше
             </p>
           </div>
         </div>
-        <div class="relative max-w-[437px]">
+        <div class="relative max-w-medium">
           <img
             class="absolute top-[-5%] right-[2%]"
             src="~/assets/svg/about-page/number_three.svg"
             alt="number three"
           />
           <div
-            class="flex flex-col min-h-[269px] border-0 rounded-[10px] bg-pinkCard"
+            class="flex flex-col min-h-[17rem] border-0 rounded-xl bg-pinkCard"
           >
             <img
-              class="max-w-[110px] pl-2 pt-3"
+              class="max-w-[7rem] pl-2 pt-3"
               src="~/assets/svg/about-page/planet.svg"
-              alt="calendar"
+              alt="planet"
             />
             <p class="px-6 py-5">
-              Еще один занимательный факт.Работаем с&#160;2008 года. Отзыв
-              клиента&#160;1. Бла-бла-бла. Крутые ребята. Работаем дальше.
-              Бла-бла-бла. Крутые ребята. Работаем дальше
+              Еще один занимательный факт.Работаем с 2008 года. Отзыв клиента 1.
+              Бла-бла-бла. Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые
+              ребята. Работаем дальше
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@
         class="flex flex-col desktop:flex-row items-center justify-between last:[&>*]:mt-10 desktop:last:[&>*]:mt-0"
       >
         <div
-          class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-14 pt-10 pb-14 rounded-[14px] shadow-normal"
+          class="flex flex-col justify-between items-center max-w-[24rem] tablet:max-w-2xlg tablet:px-14 pt-10 pb-14 rounded-2xl shadow-normal"
         >
           <h3 class="mb-7 text-4xlg font-medium">Наши клиенты</h3>
 
@@ -103,14 +103,8 @@
 
             <SwiperSlide v-for="client in sliderClients">
               <div class="flex justify-center items-center">
-                <div
-                  class="flex flex-col items-center w-[384px] h-[207px] mb-4 mx-8"
-                >
-                  <img
-                    class="w-[80px] h-[80px]"
-                    :src="client.img"
-                    alt="client"
-                  />
+                <div class="flex flex-col items-center w-96 h-52 mb-4 mx-8">
+                  <img class="w-20 h-20" :src="client.img" alt="client" />
 
                   <h4 class="pb-2 text-2xl font-normal">
                     {{ client.name }}
@@ -125,7 +119,7 @@
         </div>
 
         <div
-          class="flex flex-col justify-between items-center max-w-[384px] tablet:max-w-[664px] tablet:px-14 pt-10 pb-14 rounded-[14px] shadow-normal"
+          class="flex flex-col justify-between items-center max-w-[24rem] tablet:max-w-2xlg tablet:px-14 pt-10 pb-14 rounded-2xl shadow-normal"
         >
           <h3 class="mb-7 text-4xlg font-medium">Наши партнеры</h3>
 
@@ -157,14 +151,8 @@
 
             <SwiperSlide v-for="partner in sliderPartners">
               <div class="flex justify-center items-center">
-                <div
-                  class="flex flex-col items-center w-[384px] h-[207px] mb-4 mx-8"
-                >
-                  <img
-                    class="w-[80px] h-[80px]"
-                    :src="partner.img"
-                    alt="partner"
-                  />
+                <div class="flex flex-col items-center w-96 h-52 mb-4 mx-8">
+                  <img class="w-20 h-20" :src="partner.img" alt="partner" />
 
                   <h4 class="pb-2 text-2xl font-normal">
                     {{ partner.name }}
@@ -184,45 +172,6 @@
 </template>
 
 <script setup>
-const sliderClients = {
-  ClientOne: {
-    img: "./clientSample.svg",
-    name: "Название клиента",
-    message:
-      "Отзыв клиента 1. Бла-бла-бла. Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые ребята. Работаем дальше",
-  },
-  ClientTwo: {
-    img: "./clientSample.svg",
-    name: "Название клиента",
-    message:
-      "Отзыв клиента 2. Бла-бла-бла. Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые ребята. Работаем дальше",
-  },
-  ClientThree: {
-    img: "./clientSample.svg",
-    name: "Название клиента",
-    message:
-      "Отзыв клиента 3. Бла-бла-бла. Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые ребята. Работаем дальше",
-  },
-};
-
-const sliderPartners = {
-  ClientOne: {
-    img: "./partnerSample.svg",
-    name: "Название партнера",
-    message:
-      "Отзыв партера 1. Бла-бла-бла. Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые ребята. Работаем дальше",
-  },
-  ClientTwo: {
-    img: "./partnerSample.svg",
-    name: "Название партнера",
-    message:
-      "Отзыв партера 2. Бла-бла-бла. Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые ребята. Работаем дальше",
-  },
-  ClientThree: {
-    img: "./partnerSample.svg",
-    name: "Название партнера",
-    message:
-      "Отзыв партера 3. Бла-бла-бла. Крутые ребята. Работаем дальше. Бла-бла-бла. Крутые ребята. Работаем дальше",
-  },
-};
+import sliderClients from "../assets/data/sliderClients.json";
+import sliderPartners from "../assets/data/sliderPartners.json";
 </script>
