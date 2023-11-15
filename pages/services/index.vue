@@ -21,18 +21,16 @@
       <div
         class="flex flex-col desktop:flex-row justify-between items-center desktop:items-baseline relative [&>*]:mb-24 last:[&>*]:mb-0"
       >
-        <div
-          class="flex flex-col items-center relative max-w-services-card mt-36"
-        >
+        <div class="flex flex-col items-center relative mt-36">
           <img
             class="absolute bottom-2/3"
             src="~/assets/svg/services-pages/bus.svg"
             alt="a bus"
           />
           <div
-            class="flex flex-col items-center justify-items-center max-w-medium px-5 last:[&>*]:mb-6 border-0 rounded-2xl shadow-normal"
+            class="flex flex-col items-center justify-items-center max-w-2xlg px-5 last:[&>*]:mb-8 border-0 rounded-2xl shadow-normal"
           >
-            <h3 class="text-xlg text-center mt-32 mb-2">
+            <h3 class="text-xlg text-center mt-36 mb-2">
               Международные автомобильные грузоперевозки
             </h3>
             <p class="font-light mb-6">
@@ -44,18 +42,17 @@
           </div>
         </div>
 
-        <div class="flex flex-col items-center relative max-w-services-card">
+        <div class="flex flex-col items-center relative">
           <img
             class="absolute bottom-2/3"
             src="~/assets/svg/services-pages/opened_bus.svg"
             alt="a bus"
           />
           <div
-            class="flex flex-col items-center justify-items-center max-w-medium px-5 last:[&>*]:mb-6 border-0 rounded-2xl shadow-normal"
+            class="flex flex-col items-center justify-items-center max-w-2xlg px-5 last:[&>*]:mb-8 border-0 rounded-2xl shadow-normal"
           >
-            <h3 class="text-xlg text-center mt-32 mb-2">
-              <p>Экспедирование</p>
-              <p>грузов</p>
+            <h3 class="text-xlg text-center mt-36 mb-2">
+              <p>Экспедирование грузов</p>
             </h3>
             <p class="font-light mb-6">
               Текст заглушка для сео о чем угодно. Бла-бла-бла и всякое разное.
@@ -66,7 +63,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col items-center relative max-w-services-card">
+        <div class="hidden flex-col items-center relative max-w-services-card">
           <img
             class="absolute bottom-2/3"
             src="~/assets/svg/services-pages/developing.svg"
