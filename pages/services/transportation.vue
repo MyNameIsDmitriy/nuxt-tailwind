@@ -74,7 +74,7 @@
     </div>
     <NuxtLink to="../contacts">
       <button
-        class="w-screen py-8 mx-auto font-primary text-2xl tablet:text-3xlg font-medium text-primary bg-button"
+        class="w-screen py-8 mx-auto font-primary text-2xl tablet:text-3xlg font-medium text-primary bg-button hover:shadow-xl active:shadow-buttonActive active:translate-y-[3px]"
       >
         Получить консультацию по услуге
       </button>

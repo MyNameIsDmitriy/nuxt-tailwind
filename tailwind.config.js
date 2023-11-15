@@ -54,6 +54,7 @@ export default {
 
       boxShadow: {
         normal: "2px 2px 15px 1px #00000029",
+        buttonActive: "0px 0px 20px 8px #00000020",
       },
     },
   },

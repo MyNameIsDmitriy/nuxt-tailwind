@@ -200,7 +200,7 @@
           <button
             @click.prevent="submitForm"
             type="submit"
-            class="text-base font-normal border-0 rounded-lg px-14 py-[1.125rem] bg-secondary hover:text-white active:translate-y-[-3px] active:shadow-xl"
+            class="text-base font-normal border-0 rounded-lg px-14 py-[1.125rem] bg-secondary hover:shadow-xl active:translate-y-[3px] active:shadow-buttonActive"
           >
             Отправить
           </button>
