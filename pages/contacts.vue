@@ -71,7 +71,7 @@
         <div class="w-full [&>*]:mb-8 last:[&>*]:mb-0">
           <div class="flex flex-col desktop:flex-row text-base font-light">
             <div
-              class="w-full desktop:w-80 [&>label]:flex [&>label]:flex-col desktop:mr-4 [&>label]:mb-4 dasktop:last:[&>label]:mb-0"
+              class="w-full desktop:w-80 [&>label]:flex [&>label]:flex-col desktop:mr-4 [&>label]:mb-4 last:desktop:[&>label]:mb-0"
             >
               <label>
                 <span>
@@ -144,7 +144,7 @@
                 </span>
                 <textarea
                   v-model="formData.message"
-                  class="font-normal border border-[#D8D8D8] h-56 bg-cultured py-1 px-1"
+                  class="font-normal border border-[#D8D8D8] h-56 desktop:h-[18.75rem] bg-cultured py-1 px-1"
                   :class="{
                     'border-warning focus:border-warning outline-warning':
                       v$.message.$error,
