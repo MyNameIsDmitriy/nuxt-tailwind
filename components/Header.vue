@@ -29,24 +29,46 @@
           <li
             @click="toggleMenu"
             class="active:text-secondary tablet:active:text-primary tablet:active:[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)]"
+            :class="{
+              underline: location === '/',
+              'decoration-secondary': location === '/',
+            }"
           >
             <NuxtLink to="/">Главная</NuxtLink>
           </li>
           <li
             @click="toggleMenu"
             class="active:text-secondary tablet:active:text-primary tablet:active:[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)]"
+            :class="{
+              underline: location === '/about',
+              'decoration-secondary': location === '/about',
+            }"
           >
             <NuxtLink to="/about">О нас</NuxtLink>
           </li>
           <li
             @click="toggleMenu"
             class="active:text-secondary tablet:active:text-primary tablet:active:[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)]"
+            :class="{
+              underline:
+                location === '/services' ||
+                location === '/services/transportation' ||
+                location === '/services/freight-forwarding',
+              'decoration-secondary':
+                location === '/services' ||
+                location === '/services/transportation' ||
+                location === '/services/freight-forwarding',
+            }"
           >
             <NuxtLink to="/services">Услуги</NuxtLink>
           </li>
           <li
             @click="toggleMenu"
             class="active:text-secondary tablet:active:text-primary tablet:active:[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)] last:mr-0"
+            :class="{
+              underline: location === '/contacts',
+              'decoration-secondary': location === '/contacts',
+            }"
           >
             <NuxtLink to="/contacts">Контакты</NuxtLink>
           </li>
@@ -57,7 +79,10 @@
 </template>
 
 <script setup>
-import { onMounted, onUnmounted } from "vue";
+import { computed, onMounted, onUnmounted } from "vue";
+
+const route = useRoute();
+const location = computed(() => route.path);
 
 let isPressed = ref(false);
 
