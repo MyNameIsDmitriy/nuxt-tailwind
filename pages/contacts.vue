@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-container px-4 mx-auto mt-20">
     <div
-      class="flex flex-col laptop:flex-row justify-around desktop:justify-between items-center laptop:items-start mb-28 font-primary text-primary"
+      class="flex flex-col laptop:flex-row justify-around desktop:justify-between items-center laptop:items-start mb-24 font-primary text-primary"
     >
       <div class="max-w-medium mb-8 laptop:mb-0">
         <div class="mb-14">

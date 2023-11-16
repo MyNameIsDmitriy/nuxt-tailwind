@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-container px-4 mx-auto mt-24">
-    <div class="font-primary text-base font-light text-primary mb-28">
+  <div class="max-w-container px-4 mx-auto mt-20">
+    <div class="font-primary text-base font-light text-primary mb-24">
       <div
         class="grid gap-4 grid-cols-1 tablet:grid-cols-3 [&>*]:justify-self-center mb-10"
       >

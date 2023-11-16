@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-container px-4 mx-auto mt-20">
-    <div class="text-base font-normal font-primary text-primary mb-28">
+    <div class="text-base font-normal font-primary text-primary mb-4">
       <div>
         <h2 class="text-4xlg mb-6">Разнообразие услуг</h2>
         <p class="font-light">
